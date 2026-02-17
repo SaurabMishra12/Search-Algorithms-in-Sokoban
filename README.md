@@ -78,7 +78,7 @@ Search-Algorithms-in-Sokoban/
 
 \* DFS completeness depends on the depth limit.
 
-**Heuristic (for informed searches):** Sum of minimum Manhattan distances from each box to its nearest goal position. This heuristic is admissible and consistent for Sokoban.
+**Heuristic (for informed searches):** Sum of minimum Manhattan distances from each box to its nearest goal position. This heuristic is admissible (it never overestimates the true cost) for Sokoban.
 
 ---
 
@@ -307,4 +307,4 @@ The notebook generates several charts comparing algorithm performance. The image
 
 - Sokoban puzzle: [https://en.wikipedia.org/wiki/Sokoban](https://en.wikipedia.org/wiki/Sokoban)
 - Russell, S., Norvig, P. *Artificial Intelligence: A Modern Approach* -- for BFS, DFS, UCS, Greedy BFS, and A* algorithm descriptions
-- PSPACE-completeness of Sokoban: Culberson, J. (1997). *Sokoban is PSPACE-complete.*
+- Culberson, J. (1997). *Sokoban is PSPACE-complete.* Technical Report TR 97-02, Department of Computing Science, University of Alberta.
