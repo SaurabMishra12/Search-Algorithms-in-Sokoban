@@ -55,7 +55,7 @@ Search-Algorithms-in-Sokoban/
 |-- a-survey-on-classical-search-algorithms.ipynb   # Main notebook with all code and analysis
 |-- README.md
 |-- docs/
-|   |-- Assignment1_AdvAI.pdf                       # Assignment specification
+|   |-- Assignment1_AdvAI.pdf                       # paper
 |-- images/
 |   |-- agentworkingA.png                           # A* agent trace visualization
 |   |-- mainfig.png                                 # Main architecture figure
